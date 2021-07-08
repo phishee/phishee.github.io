@@ -3,8 +3,6 @@
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
-        <link type="text/css" rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">  
-        <script type="text/javascript" src="galleria/themes/classic/galleria.classic.min.js"></script>
     </head>
     <body>
         <style>#galleria{height:467px}</style>
@@ -19,5 +17,11 @@
                 Galleria.run('.galleria');
             }());
         </script>
+        <script type="text/javascript">
+$('#gallery').galleria({
+width: 700,
+height: 467 //--I made heights match
+});
+</script>
     </body>
 </html>
